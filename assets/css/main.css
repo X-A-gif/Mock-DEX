@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background: rgb(32, 43, 77);
+    background-image: url(../imgs/bgVg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom -1210px right -400px;
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+    font-family: quicksand;
+}
+
+#itemBox {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+    flex: 1 1 0%;
+}
+
+#swap-tab {
+    font-style: normal;
+    font-weight: 300;
+    font-size: min(4.5vw, 18px);
+    padding: 12px 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: rgba(101, 168, 251, 0.03);
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#pool-tab {
+    font-style: normal;
+    font-weight: 300;
+    font-size: min(4.5vw, 18px);
+    padding: 12px 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: rgba(101, 168, 251, 0.03);
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#farm-tab {
+    font-style: normal;
+    font-weight: 300;
+    font-size: min(4.5vw, 18px);
+    padding: 12px 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: rgba(101, 168, 251, 0.03);
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#stake-tab {
+    font-style: normal;
+    font-weight: 300;
+    font-size: min(4.5vw, 18px);
+    padding: 12px 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: rgba(101, 168, 251, 0.03);
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#typBox {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 398px;
+    width: 1000px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 300;
+}
+
+#typBox p {
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 31px;
+}
+
+#typBox  h1 {
+    font-size: 72px;
+    line-height: 110%;
+    -webkit-box-align: center;
+    align-items: center;
+    letter-spacing: -0.02em;    
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+
+#typBox div p {
+    opacity: 0.7;
+}
+
+#typBox button {
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 256px;
+    height: 65px;
+    background: linear-gradient(rgb(99, 159, 231) 0%, rgb(80, 140, 231) 100%);
+    border-radius: 10px;
+    margin-left: 62px;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 35px;
+}
+
+#botBox {
+    position: absolute;
+    top: 186px;
+    right: 245px;
+    width: 572px;
+    height: 5   72px;
+}
+
+.tokenNoms {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -60rem;
+    margin-left: 32rem;
+    
+}
+
+/* .sc-tkn {
+    position: relative;
+    
+    margin-bottom: 120px;
+} */
+
+.sc-tkHd {
+    font-weight: 100;
+     font-size: 68px;
+     line-height: 82px;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    margin: 0px;
+}
+
+/* .sc-gzzPqb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 877px;
+    height: 876px;
+} */
+
+
+.iCards {
+    background-color: rgb(8, 4, 32);
+}
+

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background: rgb(32, 43, 77);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom -1210px right -400px;
+    color: rgb(255, 255, 255); 
+    font-size: 20px;
+    font-family: quicksand;
+}
+
+#itemBox {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+    flex: 1 1 0%;
+}
+
+#swap-tab {
+    font-style: normal;
+    font-weight: 300;
+    font-size: min(4.5vw, 18px);
+    padding: 12px 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: rgba(101, 168, 251, 0.03);
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#pool-tab {
+    font-style: normal;
+    font-weight: 300;
+    font-size: min(4.5vw, 18px);
+    padding: 12px 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: rgba(101, 168, 251, 0.03);
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#farm-tab {
+    font-style: normal;
+    font-weight: 300;
+    font-size: min(4.5vw, 18px);
+    padding: 12px 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: rgba(101, 168, 251, 0.03);
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#stake-tab {
+    font-style: normal;
+    font-weight: 300;
+    font-size: min(4.5vw, 18px);
+    padding: 12px 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: rgba(101, 168, 251, 0.03);
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#typBox {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 398px;
+    opacity: 0.2;
+    width: 1000px;
+    color: rgb(255, 255, 255);
+}
+
+#typBox p {
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 31px;
+}
+
+#typBox  h1 {
+    font-weight: 200;
+    font-size: 74px;
+    line-height: 110%;
+    -webkit-box-align: center;
+    align-items: center;
+    letter-spacing: -0.02em;    
+    display: inline;
+}
+
+#typBox button {
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 256px;
+    height: 65px;
+    background: linear-gradient(rgb(99, 159, 231) 0%, rgb(80, 140, 231) 100%);
+    border-radius: 10px;
+    margin-left: 62px;
+    cursor: pointer;
+    z-index: 5;
+    font-size: 35px;
+
+}
+
+#botBox {
+    position: absolute;
+    top: 186px;
+    right: 245px;
+    width: 572px;
+    height: 5   72px;
+}
+
+#swapBox {
+    background-clip: content-box;
+    background-color: rgba(101,168,251,.1);
+    border: 6px solid transparent;
+    border-radius: 10px;
+    width: 17px;
+    position: relative;
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+    margin: 0px auto;
+    max-width: 534px;
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    border-bottom: unset;
+    height: 520px;
+}
+
+.swapSub {
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    color: rgb(147, 155, 169);
+    border-radius: 20px 20px 0px 0px;
+    padding: 44px 44px 0px;
+    border-bottom: unset;
+    min-height: 443px;
+    -webkit-box-pack: justify;
+    justify-content: space-between; 
+}
+
+.Swap_inputContainer__IvBwJ {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0;
+    position: relative;
+    width: 100%;
+    backdrop-filter: blur(20px);
+}
+
+#toknBln {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(244, 244, 244);
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    background: transparent;
+    font-size: min(5.5vw, 25px);
+    padding: 4px 8px;
+}
+
+.tokenInput {
+    align-items: flex-start;
+    background: rgba(101,168,251,.03);
+    border: 1px solid #405677;
+    border-radius: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 86px;
+    padding: 12px;
+}
+
+#swapBtn {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: linear-gradient(rgb(101, 168, 251) 0%, rgb(80, 140, 231) 100%);
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(5vw, 22px);
+    line-height: 140%;
+    text-align: center;
+    color: rgb(244, 244, 244);
+    margin: 0px auto 20px;
+    gap: 20px;
+    padding: 17px 20px;
+    width: 100%;
+}
+
+.iCards {
+    background-color: rgb(8, 4, 32);
+}
+

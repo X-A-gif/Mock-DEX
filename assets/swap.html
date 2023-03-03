@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./css/swap.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+            fontSize: {
+              sm: ['14px', '20px'],
+              base: ['16px', '24px'],
+              lg: ['20px', '28px'],
+              xl: ['24px', '32px'],
+            }
+          }
+        }
+      }
+    </script>
+    <title>Morphex</title>
+  </head>
+  <body>
+
+<main>
+<div id="root">
+  <div id="bodyContainer">
+    
+    <nav class="flex items-center justify-between mx-20 flex-wrap bg-transparent p-6">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <a href="../index.html" class="flex items-center">
+          <img src="./imgs/textLogo.png" class="h-6 md:h-40 mr-3 sm:h-9" alt="Flowbite Logo" />
+      </a>
+       
+      </div>
+      <div class="block lg:hidden">
+        <button class="flex items-center px-3 py-2 border rounded text-blue-200 border-blue-400 hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+      <div id="listBox" class="block flex-grow lg:flex lg:items-center ml-40 sm:hidden">
+        <div id="itemBox" class="lg:flex-grow ">
+          <a id="swap-tab" href="#responsive-header" class="block border-2 rounded-md mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4">
+            Swap
+          </a>
+          <a id="pool-tab" href="#responsive-header" class="block border-2 rounded-md mt-4 lg:inline-block lg:mt-0  hover:text-white mr-4">
+            Pool
+          </a>
+          <a id="farm-tab" href="#responsive-header" class="block border-2 rounded-md mt-4 lg:inline-block lg:mt-0  hover:text-white">
+            Farm
+          </a>
+          <a id="stake-tab" href="#responsive-header" class="block border-2 rounded-md mt-4 lg:inline-block lg:mt-0  hover:text-white">
+            Stake
+          </a>
+        </div>
+      </div>
+      <button>
+        <a href="#" id="connectBtn" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Connect</a>
+      </button>
+    </nav>
+
+    <div id="swapBox" class="flex justify-center items-center">
+        <div class="swapSub bg-transparent">
+            <h4>Swap</h4>
+            <div class="Swap_inputContainer__IvBwJ">
+              <div class="tokenInput">
+                <div class="">
+                  <button id="toknBln">ada</button>
+                </div>
+                <input type="text" placeholder="0.0" class="bg-transparent">
+              </div>
+            </div>
+            <div class="Swap_inputContainer__IvBwJ">
+              <div class="tokenInput">
+                <div class="">
+                  <button id="toknBln">ada</button>
+                </div>
+                <input type="text" placeholder="0.0" class="bg-transparent">
+              </div>
+            </div>
+              <button id="swapBtn" type="button">Swap</button>
+        </div>
+    </div>
+
+  <div id="botBox">
+    <img src="./imgs/mrai2.png" alt="">
+  </div>
+
+
+</div>
+</main>
+
+  <script type="module" src="./js/connectBtn.js"></script>
+
+  </body>
+</html>
